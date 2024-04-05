@@ -47,5 +47,6 @@ dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation project(':react-native-vector-icons')
     //implementation 'com.github.zawadz88.materialpopupmenu:material-popup-menu:4.1.0'
-    implementation files("libs/material-popup-menu-4.1.0.aar") //react-native-popover-menu依赖，jcenter失效造成无法自动引用
+    implementation 'com.github.zawadz88:MaterialPopupMenu:4.1.0'
+    //implementation files("libs/material-popup-menu-4.1.0.aar") //react-native-popover-menu依赖，jcenter失效造成无法自动引用
 }
